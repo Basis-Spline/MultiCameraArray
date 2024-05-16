@@ -1,0 +1,4 @@
+# List the required MicroPython libraries for the ESP32-CAM node.
+# Note: MicroPython libraries are typically uploaded manually to the device.
+
+micropython-urequests
