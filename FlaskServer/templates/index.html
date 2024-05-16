@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi Camera Array</title>
+</head>
+<body>
+    <h1>Captured Images</h1>
+    <div>
+        {% for file in files %}
+            <div>
+                <img src="{{ url_for('uploaded_file', filename=file) }}" alt="{{ file }}" style="width:300px;"/>
+                <p>{{ file }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
